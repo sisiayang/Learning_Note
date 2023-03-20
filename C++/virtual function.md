@@ -17,7 +17,7 @@
   ```
 
 * 如果想利用 parents 的 function 結果再加以修改，可以用 parents::function_name
-  ```
+  ```C++
   class child: public parents{
     public:
       virtual int returm_num(int n) override{
